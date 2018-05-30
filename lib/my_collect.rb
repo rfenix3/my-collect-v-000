@@ -8,6 +8,6 @@ def my_collect(array)
   collection
 end
 
-puts my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}.inspect
+#puts my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}.inspect
 
-puts my_collect(["ruby", "javascript", "python"]) {|lang| lang.upcase}.inspect
+#puts my_collect(["ruby", "javascript", "python"]) {|lang| lang.upcase}.inspect
