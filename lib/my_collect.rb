@@ -1,6 +1,6 @@
 def my_collect(array)
   collection = []
-  while i < array.lenght do |element|
+  while i < array.lenght do 
     collection << yield (element[i])
     i = i + 1
   end
