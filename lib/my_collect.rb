@@ -9,3 +9,5 @@ def my_collect(array)
 end
 
 puts my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}.inspect
+
+puts my_collect(["ruby", "javascript", "python"]) {|name| name.split(" ").first}.inspect
