@@ -8,4 +8,4 @@ def my_collect(array)
   collection
 end
 
-my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}.inspect
+puts my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}.inspect
