@@ -1,4 +1,4 @@
-def my_collection(array)
+def my_collect(array)
   collection = []
   while i < array.lenght do |element|
     collection << yield (element[i])
@@ -7,3 +7,4 @@ def my_collection(array)
   collection
 end
 
+my_collect("Tim Jones", "Tom Smith", "Jim Campagno") {|name| name.split(" ".first)}
